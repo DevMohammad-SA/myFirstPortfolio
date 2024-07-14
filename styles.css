@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+* {
+  font-family: Cairo, serif;
+}
+html,
+body,
+.container {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin: 0;
+}
+.navbar {
+  background-color: black;
+  color: white;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  text-align: right;
+  padding: 5px;
+}
+.navbar li,
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.navbar a:hover {
+  background-color: #ed5f00;
+  color: black;
+  transition: 0.5s;
+  border-color: #ed5f00;
+}
+.left-side {
+  background-color: #ed5f00;
+  height: 100%;
+  width: 270px;
+  vertical-align: top;
+  padding-left: 5px;
+  margin-left: 100%;
+  left: 0;
+}
+.left-side img {
+  width: 16px;
+  height: 16px;
+}
+.left-side a {
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+  border-radius: 8px;
+  vertical-align: top;
+}
+
+.drk-line {
+  height: 2px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.table-container {
+  height: 100%;
+  width: 100%;
+}
+.right-side h4 {
+  background-color: #b6b6b6;
+  margin-left: 15px;
+  padding: 15px;
+}
+.right-side p {
+  margin-left: 15px;
+}
+.right-side {
+  vertical-align: top;
+}
+video {
+  padding: 15px;
+}
+.right-side a {
+  color: black;
+}
+.right-side a:hover {
+  text-decoration: underline;
+}
+.navbar-ar {
+  background-color: black;
+  color: white;
+}
+.navbar-ar ul {
+  list-style: none;
+  margin: 0;
+  text-align: left;
+  padding: 5px;
+}
+
+.navbar-ar li,
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.navbar-ar a:hover {
+  background-color: #ed5f00;
+  color: black;
+  transition: 0.5s;
+  border-color: #ed5f00;
+}
+.main_habit_tracker {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 33%;
+  display: table;
+  justify-content: center;
+}
+.add_habit {
+  border-radius: 3%;
+  padding: 2%;
+  background-color: rgb(233, 231, 231);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.add_habit input {
+  border: none;
+  background-color: transparent;
+}
+.habits {
+  border-radius: 3%;
+  padding: 2%;
+  border: black 0.5px solid;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 135%);
+}
+.habits li {
+  list-style-type: none;
+}
